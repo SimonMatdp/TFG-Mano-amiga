@@ -57,7 +57,7 @@ void loop(void)
   Serial.println("");
 
   delay(2000);*/
-  if(i>=N_MUESTRAS-1)
+  if(i>N_MUESTRAS-1)
   {
     i=0;
   }
