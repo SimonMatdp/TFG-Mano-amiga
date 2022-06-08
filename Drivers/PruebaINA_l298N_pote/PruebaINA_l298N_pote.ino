@@ -58,7 +58,7 @@ void setup(void)
 void loop(void) 
 {
   //Medida del INA
-  if(i>=N_MUESTRAS-1)
+  if(i>N_MUESTRAS-1)
   {
     i=0;
   }
