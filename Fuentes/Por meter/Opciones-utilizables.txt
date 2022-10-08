@@ -1,0 +1,15 @@
+En este documento se indican la bibliografía con diseños utilizables, es decir, aquellos con información, métodos, materiales etc que se plantea utilizar en el tfg.
+
+Se comenta lo que resulta de interés en cada una de estas publicaciones
+Si el proyecto tiene nombre, el título será el nombre, sino se pondrán los primeros autores como título del archivo.
+
+Bobby L. Shields, John A. Main
+- Mecanismo de transmisión sencillo, realitvamente compacto, transmisión angular lineal 1:1
+
+optimization process of a two-phalange device
+- Optimicación y estudio del mecanismo arriba mencionado
+- El mecanismo se llama mecanismo de cuatro (4) barras, aunque técnicamente tenga seis (6).
+
+Favetto, A., Ambrosio
+- Análisis de viabilidad de uso de guantes-exoesqueleto para EVAs
+- Explicación muy visual de una de las ventajas del mecanismo de 4 barras 

@@ -1,0 +1,29 @@
+En este documento se indican la bibliografía con diseños convencionales, es decir, aquellos que utilizan actuadores lineales o rotativos,
+comunmente encontrados en otras aplicaciones, así como mecanismos de transmisión (normalmente mecanismos planares de barras) sencillos.
+
+Se comenta lo que resulta de interés en cada una de estas publicaciones
+Si el proyecto tiene nombre, el título será el nombre, sino se pondrán los primeros autores como título del archivo.
+
+Sarac, M., Solazzi: 
+- Infraactuado.
+- Los conectores de las barras de transmisión a la falange tienen raíles para que se delice libremente y así ajustarse
+
+Hernández-Santos, C., Davizón:
+- Infraactuado
+- Estado del arte muy útil en la introducción
+- Transmisión por raíles curvos
+
+ROBHAND
+--
+
+Enriquez, S. C., Narváez, Y.
+- Infraactuado.
+- Raíles curvos
+
+Cui, L., Phan, A., & Allison, G
+- Dimensiones parametrizadas
+- diseño compacto
+
+López Belloso, José Ángel
+- Muy similar a ROBHAND (ambos de la universidad de Valladolid, algo tendrá que ver)
+- Es un TFG
