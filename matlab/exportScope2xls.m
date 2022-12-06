@@ -1,2 +1,2 @@
-T=table(out.ScopeData.time, out.ScopeData.signals.values(1,:)')
-writetable(T, 'todoNada45grados.xls')
+T=table(out.step_response.time, out.step_response.signals.values(1,:)')
+writetable(T, 'stepResponse.xls')
