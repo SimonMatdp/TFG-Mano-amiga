@@ -4,7 +4,7 @@ Tp2=0.079019;
 
 s=tf('s');
 G=tf(k, [Tp1*Tp2 Tp1+Tp2 1])
-[yG, tG]=step(G);
+[yG, tG]=step(G)
 
 %---
 
@@ -16,16 +16,23 @@ m=(yG(muestra_tangente)-yG(muestra_tangente-1))/(tG(muestra_tangente)-tG(muestra
 x= linspace(0,0.26,1000);
 tangente= m*(x-tG(muestra_tangente-1))+yG(muestra_tangente-1); %muestra_tangente-1
 
+figure
+step(G)
+hold on;
 plot(x, tangente)
 hold on;
 yline(0.2445) % x=0.2366
 hold on;
 yline(0) %x=0.0222
-%hold on;
-%plot(t ,y_150(:,1))
+hold on;
+
+figure
+stepresponse = xlsread('stepResponse.xls');
+plot(stepresponse(:,1), stepresponse(:,2)/150)
 hold on;
 step(G)
 
+legend('Sistema identificado', 'Datos empíricos')
 %---
 
 L=0.0222; 
@@ -40,6 +47,10 @@ G_c2=feedback(G*Gc2,1);
 G_c3=feedback(G*Gc3,1);
 
 figure
-hold on;
 step(G_c1,G_c2,G_c3);
-legend('P','PI','PID')
+hold on
+stepresponse = xlsread('P_ZN.xls');
+plot(stepresponse(:,1), stepresponse(:,2)/45)
+hold on;
+step(G)
+legend('P','PI','PID','P real')
